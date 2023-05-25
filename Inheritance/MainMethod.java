@@ -3,7 +3,7 @@ package Inheritance;
 public class MainMethod {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Instance of Car class
 		Car Toyota_VIOS = new Car();
 		
 		Toyota_VIOS.speed = 100;
@@ -19,6 +19,7 @@ public class MainMethod {
 		
 		System.out.println("--------------");
 		
+		// Instance of Plane class
 		Plane U2_Spy_Plane = new Plane();
 		
 		U2_Spy_Plane.speed = 900;
@@ -34,6 +35,7 @@ public class MainMethod {
 		
 		System.out.println("--------------");
 		
+		// Instance of Boat class
 		Boat FandangoYacht = new Boat();
 		
 		FandangoYacht.speed = 60;

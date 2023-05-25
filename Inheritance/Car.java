@@ -8,6 +8,7 @@ public class Car extends Vehicle{
 		System.out.println("The car is Moving");
 	}
 	
+	//Overrides the Stop method from the Vehicle class
 	@Override
 	void stop() {
 		System.out.println("THE CAR STOPPED");
